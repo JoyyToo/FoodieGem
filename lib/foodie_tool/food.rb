@@ -1,3 +1,5 @@
+require 'active_support/inflector'
+
 module FoodieTool
   class Food
     def self.portray(food)
@@ -6,6 +8,10 @@ module FoodieTool
       else
         'Delicious!'
       end
+    end
+
+    def self.pluralize(word)
+      word.pluralize
     end
   end
 end
