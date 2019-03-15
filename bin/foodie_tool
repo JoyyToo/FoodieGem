@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'foodie_tool/cli'
+FoodieTool::CLI.start
